@@ -1,1 +1,15 @@
 
+A macro is a Dataiku component used to automatize tasks or to extend the capability of Dataiku. It can be used in several places in Dataiku DSS, depending on the role of the macro. By default, macros are accessible from the “Macros” menu of each project. In addition, macro can be made accessible in other places, depending on the macroRoles field. For example, if the macroRoles is:
+
+DATASETS the macro will be available when selecting on or more Datasets in the Flow.
+
+PROJECT_MACROS is about running code on the project in order to achieve global processing on a project (it can be used, to automatically kill running processing, like notebooks).
+
+PROJECT_CREATOR will allow (administrators) to create a project template with some default configurations.
+
+A macro is not limited to only one kind of role, allowing it to appear in several places if it makes sense.
+
+For more information about macros, see DSS Macros.
+
+
+https://doc.dataiku.com/dss/latest/plugins/reference/macros.html
